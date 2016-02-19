@@ -100,6 +100,12 @@
 		C42C24FA1C75D8FF003F246A /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42C24CC1C75D8FF003F246A /* test2.jpg */; };
 		C42C24FB1C75D8FF003F246A /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42C24CD1C75D8FF003F246A /* test3.jpg */; };
 		C42C24FC1C75D8FF003F246A /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42C24CE1C75D8FF003F246A /* test4.jpg */; };
+		C44058DA1C774146002C17B8 /* BASegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C44058D91C774146002C17B8 /* BASegmentControl.m */; };
+		C44058E61C774171002C17B8 /* YRFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44058DD1C774171002C17B8 /* YRFirstView.m */; };
+		C44058E71C774171002C17B8 /* YRFourView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44058DF1C774171002C17B8 /* YRFourView.m */; };
+		C44058E81C774171002C17B8 /* YRInvestmentLiveTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44058E11C774171002C17B8 /* YRInvestmentLiveTableView.m */; };
+		C44058E91C774171002C17B8 /* YRSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44058E31C774171002C17B8 /* YRSecondView.m */; };
+		C44058EA1C774171002C17B8 /* YRThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44058E51C774171002C17B8 /* YRThreeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,8 +142,8 @@
 		C42C240F1C75D546003F246A /* 广告testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "广告testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42C24131C75D546003F246A /* __testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __testUITests.m; sourceTree = "<group>"; };
 		C42C24151C75D546003F246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C42C24211C75D565003F246A /* YRBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRBannerView.h; sourceTree = "<group>"; };
-		C42C24221C75D565003F246A /* YRBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRBannerView.m; sourceTree = "<group>"; };
+		C42C24211C75D565003F246A /* YRBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YRBannerView.h; path = ../YRBannerView.h; sourceTree = "<group>"; };
+		C42C24221C75D565003F246A /* YRBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YRBannerView.m; path = ../YRBannerView.m; sourceTree = "<group>"; };
 		C42C24261C75D58B003F246A /* MLEmoji_Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLEmoji_Expression.bundle; sourceTree = "<group>"; };
 		C42C24271C75D58B003F246A /* MLEmoji_Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_Expression.plist; sourceTree = "<group>"; };
 		C42C24281C75D58B003F246A /* MLEmoji_ExpressionImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_ExpressionImage.plist; sourceTree = "<group>"; };
@@ -259,6 +265,18 @@
 		C42C24CC1C75D8FF003F246A /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 		C42C24CD1C75D8FF003F246A /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
 		C42C24CE1C75D8FF003F246A /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
+		C44058D81C774146002C17B8 /* BASegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASegmentControl.h; sourceTree = "<group>"; };
+		C44058D91C774146002C17B8 /* BASegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASegmentControl.m; sourceTree = "<group>"; };
+		C44058DC1C774171002C17B8 /* YRFirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRFirstView.h; sourceTree = "<group>"; };
+		C44058DD1C774171002C17B8 /* YRFirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRFirstView.m; sourceTree = "<group>"; };
+		C44058DE1C774171002C17B8 /* YRFourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRFourView.h; sourceTree = "<group>"; };
+		C44058DF1C774171002C17B8 /* YRFourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRFourView.m; sourceTree = "<group>"; };
+		C44058E01C774171002C17B8 /* YRInvestmentLiveTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRInvestmentLiveTableView.h; sourceTree = "<group>"; };
+		C44058E11C774171002C17B8 /* YRInvestmentLiveTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRInvestmentLiveTableView.m; sourceTree = "<group>"; };
+		C44058E21C774171002C17B8 /* YRSecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSecondView.h; sourceTree = "<group>"; };
+		C44058E31C774171002C17B8 /* YRSecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSecondView.m; sourceTree = "<group>"; };
+		C44058E41C774171002C17B8 /* YRThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRThreeView.h; sourceTree = "<group>"; };
+		C44058E51C774171002C17B8 /* YRThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRThreeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,12 +331,12 @@
 				C42C23F21C75D546003F246A /* AppDelegate.m */,
 				C42C23F41C75D546003F246A /* ViewController.h */,
 				C42C23F51C75D546003F246A /* ViewController.m */,
-				C42C24211C75D565003F246A /* YRBannerView.h */,
-				C42C24221C75D565003F246A /* YRBannerView.m */,
 				C42C23F71C75D546003F246A /* Main.storyboard */,
 				C42C23FA1C75D546003F246A /* Assets.xcassets */,
 				C42C23FC1C75D546003F246A /* LaunchScreen.storyboard */,
 				C42C23FF1C75D546003F246A /* Info.plist */,
+				C44058DB1C774171002C17B8 /* View */,
+				C44058D71C774146002C17B8 /* BASegmentControl */,
 				C42C24241C75D58B003F246A /* Vender */,
 				C42C23EE1C75D546003F246A /* Supporting Files */,
 			);
@@ -567,6 +585,34 @@
 			path = test;
 			sourceTree = "<group>";
 		};
+		C44058D71C774146002C17B8 /* BASegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				C44058D81C774146002C17B8 /* BASegmentControl.h */,
+				C44058D91C774146002C17B8 /* BASegmentControl.m */,
+			);
+			path = BASegmentControl;
+			sourceTree = "<group>";
+		};
+		C44058DB1C774171002C17B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C42C24211C75D565003F246A /* YRBannerView.h */,
+				C42C24221C75D565003F246A /* YRBannerView.m */,
+				C44058DC1C774171002C17B8 /* YRFirstView.h */,
+				C44058DD1C774171002C17B8 /* YRFirstView.m */,
+				C44058DE1C774171002C17B8 /* YRFourView.h */,
+				C44058DF1C774171002C17B8 /* YRFourView.m */,
+				C44058E01C774171002C17B8 /* YRInvestmentLiveTableView.h */,
+				C44058E11C774171002C17B8 /* YRInvestmentLiveTableView.m */,
+				C44058E21C774171002C17B8 /* YRSecondView.h */,
+				C44058E31C774171002C17B8 /* YRSecondView.m */,
+				C44058E41C774171002C17B8 /* YRThreeView.h */,
+				C44058E51C774171002C17B8 /* YRThreeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -748,6 +794,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42C24941C75D58B003F246A /* UIImageView+HighlightedWebCache.m in Sources */,
+				C44058E91C774171002C17B8 /* YRSecondView.m in Sources */,
 				C42C24841C75D58B003F246A /* SDRefreshHeaderView.m in Sources */,
 				C42C248E1C75D58B003F246A /* SDWebImageManager.m in Sources */,
 				C42C248A1C75D58B003F246A /* SDWebImageCompat.m in Sources */,
@@ -762,12 +809,16 @@
 				C42C24831C75D58B003F246A /* SDRefreshFooterView.m in Sources */,
 				C42C247A1C75D58B003F246A /* TADotView.m in Sources */,
 				C42C23F61C75D546003F246A /* ViewController.m in Sources */,
+				C44058E81C774171002C17B8 /* YRInvestmentLiveTableView.m in Sources */,
 				C42C24911C75D58B003F246A /* UIImage+GIF.m in Sources */,
 				C42C24961C75D58B003F246A /* UIView+WebCacheOperation.m in Sources */,
 				C42C247F1C75D58B003F246A /* SDBrowserImageView.m in Sources */,
+				C44058E71C774171002C17B8 /* YRFourView.m in Sources */,
 				C42C24231C75D565003F246A /* YRBannerView.m in Sources */,
 				C42C24921C75D58B003F246A /* UIImage+MultiFormat.m in Sources */,
 				C42C248B1C75D58B003F246A /* SDWebImageDecoder.m in Sources */,
+				C44058DA1C774146002C17B8 /* BASegmentControl.m in Sources */,
+				C44058E61C774171002C17B8 /* YRFirstView.m in Sources */,
 				C42C24881C75D58B003F246A /* NSData+ImageContentType.m in Sources */,
 				C42C24761C75D58B003F246A /* MLEmojiLabel.m in Sources */,
 				C42C248D1C75D58B003F246A /* SDWebImageDownloaderOperation.m in Sources */,
@@ -784,6 +835,7 @@
 				C42C23F01C75D546003F246A /* main.m in Sources */,
 				C42C24951C75D58B003F246A /* UIImageView+WebCache.m in Sources */,
 				C42C24771C75D58B003F246A /* TTTAttributedLabel.m in Sources */,
+				C44058EA1C774171002C17B8 /* YRThreeView.m in Sources */,
 				C42C24811C75D58B003F246A /* SDWaitingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1010,6 +1062,7 @@
 				C42C241A1C75D546003F246A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42C241B1C75D546003F246A /* Build configuration list for PBXNativeTarget "广告testTests" */ = {
 			isa = XCConfigurationList;
@@ -1018,6 +1071,7 @@
 				C42C241D1C75D546003F246A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42C241E1C75D546003F246A /* Build configuration list for PBXNativeTarget "广告testUITests" */ = {
 			isa = XCConfigurationList;
@@ -1026,6 +1080,7 @@
 				C42C24201C75D546003F246A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
