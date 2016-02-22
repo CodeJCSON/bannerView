@@ -84,7 +84,7 @@ NSLog(@"你点击了确定按钮！");\
     {
         _bannerView = [[YRBannerView alloc] init];
         _bannerView.backgroundColor = [UIColor greenColor];
-        _bannerView.frame = CGRectMake(0, 0, KSCREEN_WIDTH, 250);
+        _bannerView.frame = CGRectMake(0, 20, KSCREEN_WIDTH, 250);
         
         //     测试url
         NSArray *imagesURLStrings = @[
@@ -116,17 +116,8 @@ NSLog(@"你点击了确定按钮！");\
     
     _investmentLiveTableView = [[YRInvestmentLiveTableView alloc] initWithFrame:frame withSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath, NSArray *dataArray) {
         
-        
-        if (indexPath.row == 1)
-        {
-//            [self shareButtonClick];
-        }
-        else
-        {
-            NSString *msg = [NSString stringWithFormat:@"您点击了 %@ ！",dataArray[indexPath.row][@"name"]];
+            NSString *msg = [NSString stringWithFormat:@"您点击了 %@ ！",dataArray[indexPath.row]];
             SHOW_ALERT(msg);
-        }
-        
     }];
     
     //    _firstView = [[YRFirstView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(m_adSdc.frame), KSCREEN_WIDTH, KSCREEN_HEIGHT - CGRectGetMaxY(m_adSdc.frame))];
