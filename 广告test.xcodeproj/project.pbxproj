@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40B97361C79C6AD00E2EE8C /* BAFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C40B97351C79C6AD00E2EE8C /* BAFirstCell.m */; };
+		C40B97381C79C6C400E2EE8C /* BAFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40B97371C79C6C400E2EE8C /* BAFirstCell.xib */; };
 		C42C23F01C75D546003F246A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C23EF1C75D546003F246A /* main.m */; };
 		C42C23F31C75D546003F246A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C23F21C75D546003F246A /* AppDelegate.m */; };
 		C42C23F61C75D546003F246A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C23F51C75D546003F246A /* ViewController.m */; };
@@ -126,6 +128,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40B97341C79C6AD00E2EE8C /* BAFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAFirstCell.h; sourceTree = "<group>"; };
+		C40B97351C79C6AD00E2EE8C /* BAFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAFirstCell.m; sourceTree = "<group>"; };
+		C40B97371C79C6C400E2EE8C /* BAFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BAFirstCell.xib; sourceTree = "<group>"; };
 		C42C23EB1C75D546003F246A /* 广告test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "广告test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42C23EF1C75D546003F246A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C42C23F11C75D546003F246A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -605,6 +610,9 @@
 				C44058DF1C774171002C17B8 /* YRFourView.m */,
 				C44058E01C774171002C17B8 /* YRInvestmentLiveTableView.h */,
 				C44058E11C774171002C17B8 /* YRInvestmentLiveTableView.m */,
+				C40B97341C79C6AD00E2EE8C /* BAFirstCell.h */,
+				C40B97351C79C6AD00E2EE8C /* BAFirstCell.m */,
+				C40B97371C79C6C400E2EE8C /* BAFirstCell.xib */,
 				C44058E21C774171002C17B8 /* YRSecondView.h */,
 				C44058E31C774171002C17B8 /* YRSecondView.m */,
 				C44058E41C774171002C17B8 /* YRThreeView.h */,
@@ -769,6 +777,7 @@
 				C42C24D01C75D8FF003F246A /* 1.jpg in Resources */,
 				C42C24751C75D58B003F246A /* MLEmoji_ExpressionImage.plist in Resources */,
 				C42C23F91C75D546003F246A /* Main.storyboard in Resources */,
+				C40B97381C79C6C400E2EE8C /* BAFirstCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,6 +820,7 @@
 				C42C23F61C75D546003F246A /* ViewController.m in Sources */,
 				C44058E81C774171002C17B8 /* YRInvestmentLiveTableView.m in Sources */,
 				C42C24911C75D58B003F246A /* UIImage+GIF.m in Sources */,
+				C40B97361C79C6AD00E2EE8C /* BAFirstCell.m in Sources */,
 				C42C24961C75D58B003F246A /* UIView+WebCacheOperation.m in Sources */,
 				C42C247F1C75D58B003F246A /* SDBrowserImageView.m in Sources */,
 				C44058E71C774171002C17B8 /* YRFourView.m in Sources */,

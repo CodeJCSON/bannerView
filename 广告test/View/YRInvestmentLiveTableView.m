@@ -7,6 +7,7 @@
 //
 
 #import "YRInvestmentLiveTableView.h"
+#import "BAFirstCell.h"
 
 static NSString * const kYRInvestmentLiveCellID = @"kYRInvestmentLiveCellID";
 
@@ -54,6 +55,7 @@ static NSString * const kYRInvestmentLiveCellID = @"kYRInvestmentLiveCellID";
         
         
         [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kYRInvestmentLiveCellID];
+//        [self.tableView registerNib:[UINib nibWithNibName:@"BAFirstCell" bundle:nil] forCellReuseIdentifier:kYRInvestmentLiveCellID];
         
         _tableView.tableFooterView = [UIView new];
         
@@ -69,6 +71,7 @@ static NSString * const kYRInvestmentLiveCellID = @"kYRInvestmentLiveCellID";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kYRInvestmentLiveCellID];
     if (!cell)
     {
